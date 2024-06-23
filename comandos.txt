@@ -1,0 +1,5 @@
+tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify
+tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch
+
+npx prettier --write public/index.html
+npx prettier --check public/index.html
